@@ -19,6 +19,7 @@ nav{
     left: 0;
     top: 0;
     width: 100%;
+    background-color: #000;
     }
 .nav__content{
     padding: 36px;

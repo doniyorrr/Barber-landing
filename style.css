@@ -19,8 +19,13 @@ nav{
     left: 0;
     top: 0;
     width: 100%;
-    background-color: #000;
     }
+    nav.black{
+    background: rgba(0,0,0,0.8);
+    height: 80px;
+    padding: 10px 50px;
+
+}
 .nav__content{
     padding: 36px;
     display: flex;

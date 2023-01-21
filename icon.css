@@ -1,0 +1,45 @@
+.icon{
+    display: inline-block;
+    width: 12px;
+    height: 18px;
+    cursor: pointer;
+    background-color: #000;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size:contain ;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+}
+.icon-barg{
+    mask-image: url(./icon/Vector.svg);
+-webkit-mask-image: url(./icon/Vector.svg);
+
+
+}
+.icon-location{
+    mask-image: url(./icon/Facebook\ Places.svg);
+    -webkit-mask-image: url(./icon/Facebook\ Places.svg);
+}
+.icon-tel{
+    mask-image: url(./icon/telefon.svg);
+    -webkit-mask-image: url(./icon/telefon.svg);
+}
+.icon-dom{
+    mask-image: url(./icon/dom.svg);
+    -webkit-mask-image: url(./icon/dom.svg);
+    width:77px;
+    height: 77px;
+}
+.icon-bola{
+    mask-image: url(./icon/bola.svg);
+    -webkit-mask-image: url(./icon/bola.svg);
+    width:77px;
+    height: 77px;
+}
+.icon-bola__2{
+    mask-image: url(./icon/bola__2.svg);
+    -webkit-mask-image: url(./icon/bola__2.svg);
+    width:77px;
+    height: 77px;
+}

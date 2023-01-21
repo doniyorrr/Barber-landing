@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+body{
+    background-color: rgba(37, 29, 26, 1);
+    height: 22000px;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    }
+.nav__content{
+    padding: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.first i{
+    background-color: rgba(255, 110, 64, 1);
+}
+.first h1{
+    color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+
+}
+.ahref{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    gap: 40px;
+}
+.ahref li a{
+    text-decoration: none;
+    color: rgba(239, 231, 226, 1);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.left p{
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+color: rgba(239, 231, 226, 1);
+}
+.dumaloq{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 110, 64, 1);
+    position: relative;
+}
+.left i{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 11px;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.right .bir{
+    color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+
+
+}
+.right p:last-of-type{
+    color:rgba(239, 231, 226, 1) ;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+
+}
+.right i{
+    margin-top: 9px;
+    margin-left: 11px;
+}
+.main__content{
+    padding: 100px;
+    margin-top: 160px;
+    background-image: url(./img/bg\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 750px;
+    margin-bottom: 100px;
+    /* position: relative; */
+}
+.top{
+    margin-top: -30px;
+    margin-left: -30px;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.tp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.tp h1{
+font-size: 70px;
+font-weight: 900;
+line-height: 77px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 1);
+}
+.tp div button{
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.1em;
+background: none;
+cursor: pointer;
+color: #fff;
+border: 1px solid #fff;
+padding: 1px 25px;
+margin-bottom: 30px;
+}
+.tp div p{
+    color: rgba(239, 231, 226, 1);
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0px;
+
+}
+.bt{
+    /* position: absolute; */
+    /* margin-top: 500px; */
+    padding: 430px 0 60px;
+
+}
+.bt button{
+    padding: 19px 50px;
+    background-color: rgba(255, 110, 64, 1);
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 1);
+border: none;
+cursor: pointer;
+}
+.icons{
+    margin-bottom: 245px;
+}
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+    list-style: none;
+}
+.icons ul li i{
+    background-color: rgba(255, 110, 64, 1);
+    margin-bottom: 25px;
+
+}
+.icons ul li h1{
+    margin-bottom: 10px;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+color: rgba(239, 231, 226, 1);
+
+}
+.icons ul li p{
+    color:rgba(183, 170, 162, 1);
+    font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+
+.top__top h1{
+    text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+}
+.top__top p{
+    text-align: center;
+    margin-bottom: 60px;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: rgba(239, 231, 226, 1);
+
+}
+.boss{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.rightt div img:first-of-type{
+    margin-right: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+margin-bottom: 120px;
+
+
+}
+.btn button:first-of-type{
+    padding: 19px 50px;
+    background-color: rgba(255, 110, 64, 1);
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 1);
+border: none;
+cursor: pointer;
+
+
+}
+.btn button:last-of-type{
+    padding: 19px 40px;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.1em;
+background: none;
+color: rgba(255, 255, 255, 1);
+border: 1px solid rgba(255, 255, 255, 1);
+cursor: pointer;
+
+}
+.texts{
+    text-align: center;
+}
+.texts h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 24px;
+}
+.texts p{
+    color: rgba(255, 255, 255, 1);
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+margin-bottom: 60px;
+}
+.bottom ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 270px;
+}
+.bottom ul li p:first-of-type{
+    margin: 24px 0px 24px 0;
+    color: rgba(255, 255, 255, 1);
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+
+}
+.bottom ul li p:last-of-type{
+    margin-bottom: 24px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 1);
+
+}
+.bottom ul li a{
+    color: rgba(255, 110, 64, 1);
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-decoration: none;
+}
+footer{
+    margin-bottom: 120px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+footer ul li{
+    /* border: 1px solid red;    */
+
+}
+footer ul li h1{
+font-size: 30px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0em;
+color: rgba(239, 231, 226, 1);
+margin: 20px 0 20px;
+}
+footer ul li div{
+    margin-bottom: 
+    10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li div .cut{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+color: rgba(239, 231, 226, 1);
+}
+.narx{
+    display: flex;
+    gap: 9px;
+}
+footer ul li div .narx .min{
+    color: rgba(183, 170, 162, 1);
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+
+
+}
+.dolor{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 1);
+}
+.get__content{
+    background: #FF6E40;
+    padding: 70px 150px;
+    text-align: center;
+}
+.get__content h1{
+font-size: 36px;
+font-weight: 900;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+margin-bottom: 12px;
+}
+.get__content p{
+font-size: 21px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(59, 50, 45, 1);
+margin-bottom: 35px;
+
+}
+.get__content div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+}
+.get__content div input{
+    padding: 23px 20px 22px 20px;
+    background: none;
+    border: 1px solid black;
+}
+.get__content div input::placeholder{
+font-size: 17px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+color: #fff;
+}
+.get__content div button{
+    padding: 19px 50px;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+background-color: #000;
+color: rgba(255, 255, 255, 1);
+cursor: pointer;
+}
+.check{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 25px;
+}
+.check input{
+    margin-top: -33px;
+}
+.check p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: rgba(239, 231, 226, 1);
+    
+    
+}
+.check p a{
+    color: rgba(239, 231, 226, 1);
+
+}
+

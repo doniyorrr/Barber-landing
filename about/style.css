@@ -6,7 +6,8 @@
 
 }
 body{
-    background-color: rgba(37, 29, 26, 1);
+    background-color: #3B322D;
+    ;
 }
 .container{
     margin: 0 auto;
@@ -160,4 +161,12 @@ color: #FFFFFF;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+.container_3{
+    min-height: 100vh;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto ;
+    background-image: url("./img/Frame\ 19.svg");
+    background-repeat: no-repeat;
 }

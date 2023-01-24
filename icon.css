@@ -12,18 +12,22 @@
     -webkit-mask-size: contain;
 }
 .icon-barg{
-    mask-image: url(./icon/Vector.svg);
--webkit-mask-image: url(./icon/Vector.svg);
+    mask-image: url(./icon/barg.svg);
+-webkit-mask-image: url(./icon/barg.svg);
+width: 42px ;
+height: 44px;
 
 
 }
 .icon-location{
     mask-image: url(./icon/Facebook\ Places.svg);
     -webkit-mask-image: url(./icon/Facebook\ Places.svg);
+
 }
 .icon-tel{
     mask-image: url(./icon/telefon.svg);
     -webkit-mask-image: url(./icon/telefon.svg);
+   
 }
 .icon-dom{
     mask-image: url(./icon/dom.svg);
@@ -42,4 +46,16 @@
     -webkit-mask-image: url(./icon/bola__2.svg);
     width:77px;
     height: 77px;
+}
+.icon-xat{
+    mask-image: url(./icon/email.svg);
+    -webkit-mask-image: url(./icon/email.svg);
+    width: 20px;;
+    height: 20px;
+}
+.icon-soat{
+    mask-image: url(./icon/soat.svg);
+    -webkit-mask-image: url(./icon/soat.svg);
+    width: 25px;;
+    height: 25px;
 }
